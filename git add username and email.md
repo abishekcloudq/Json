@@ -22,4 +22,6 @@ git config --global --list
 git config --list
 ```
 
-Let me know if you need any help! 🚀
+Let me know if you need any help! 🚀 
+
+git pull
