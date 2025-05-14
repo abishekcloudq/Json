@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>JSON Example</title>
+ </head>
+ <body>
+ <script type="text/javascript">
+    let company = 
+ `[{
+    "company" : "Big Coparation",
+    "name"    : "ceasr",
+    "rating"  : "4.3",
+    "revenue" : "10000"  
+},
+{
+    "company" : "small company",
+    "name"    : "julis",
+    "rating"  : "3.6",
+    "revenue" : "2000"  
+},
+{
+    "company" : "CloudQ",
+    "Place"   : "Trivandrum",
+    "Area"    : "Kazhakuttom"  
+}]`
+    let user = {
+        FirstName : "abi", 
+        age : 25,
+        fruits: [{
+            name: "apple",
+            color: "red"
+        },
+        {
+            name: "banana",
+            color: "yellow"
+        },
+        {
+            name: "grapes",
+            1: "green"
+        }]
+    }
+   let user1 = JSON.stringify(user);       // Now a string
+let userObj = JSON.parse(user1);          // Convert back to object
+
+console.log(userObj.fruits[1].name);      // ✅ Output: "green"
+
+    //console.table(JSON.parse(company)[2].Place);
+    let companyobj = JSON.parse(company);
+    console.log(companyobj[0].name);
+    //alert(typeof(company));
+</script>
+</body>
+</html>

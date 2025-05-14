@@ -1,0 +1,17 @@
+[{
+    "company" : "Big Coparation",
+    "name"    : "ceasr",
+    "rating"  : "4.3",
+    "revenue" : "10000"  
+},
+{
+    "company" : "small company",
+    "name"    : "julis",
+    "rating"  : "3.6",
+    "revenue" : "2000"  
+},
+{
+    "company" : "CloudQ",
+    "Place"   : "Trivandrum",
+    "Area"    : "Kazhakuttom"  
+}]
